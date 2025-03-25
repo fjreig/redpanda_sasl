@@ -30,3 +30,8 @@ rpk cluster config get sasl_mechanisms
 ```
 
 Posteriormente hay que reiniciar el cluster
+
+## Arrancar el resto de servicios
+```
+docker compose up -d console jupyter
+```
