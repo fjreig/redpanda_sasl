@@ -1,5 +1,10 @@
 # redpanda_sasl
 
+Arrancar unicamente el contenedor del kafkaesque 
+```
+docker compose up -d redpanda-0
+```
+
 ## Poner seguridad al kafka
 
 Añadir los superusuarios
